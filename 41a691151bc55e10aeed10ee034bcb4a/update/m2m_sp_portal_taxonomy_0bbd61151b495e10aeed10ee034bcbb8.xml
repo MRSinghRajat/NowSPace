@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_portal_taxonomy">
+    <m2m_sp_portal_taxonomy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <order>100</order>
+        <sp_portal display_value="NowSpace">506d2dd11b495e10aeed10ee034bcb97</sp_portal>
+        <sys_class_name>m2m_sp_portal_taxonomy</sys_class_name>
+        <sys_created_by>rajat@pamtconsulting.com</sys_created_by>
+        <sys_created_on>2024-10-03 22:53:28</sys_created_on>
+        <sys_id>0bbd61151b495e10aeed10ee034bcbb8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NowSPace.Employee</sys_name>
+        <sys_package display_value="NowSpace" source="x_pamtn_nowspace">41a691151bc55e10aeed10ee034bcb4a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NowSpace">41a691151bc55e10aeed10ee034bcb4a</sys_scope>
+        <sys_update_name>m2m_sp_portal_taxonomy_0bbd61151b495e10aeed10ee034bcbb8</sys_update_name>
+        <sys_updated_by>rajat@pamtconsulting.com</sys_updated_by>
+        <sys_updated_on>2024-10-03 22:53:28</sys_updated_on>
+        <taxonomy display_value="Employee">1f5d5a40c3203010069aec4b7d40dd93</taxonomy>
+    </m2m_sp_portal_taxonomy>
+</record_update>

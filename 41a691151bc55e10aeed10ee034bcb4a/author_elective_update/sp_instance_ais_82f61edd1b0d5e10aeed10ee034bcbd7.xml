@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_ais">
+    <sp_instance_ais action="DELETE">
+        <active>true</active>
+        <ai_search_source_filter/>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <disable_all_suggestions>false</disable_all_suggestions>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <placeholder/>
+        <roles/>
+        <search_application/>
+        <search_results_configuration/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">e8f61edd1b0d5e10aeed10ee034bcbef</sp_column>
+        <sp_widget display_value="NowSpace Homepage Search">94df61d91b495e10aeed10ee034bcb70</sp_widget>
+        <spell_check_font_size>xl</spell_check_font_size>
+        <sys_class_name>sp_instance_ais</sys_class_name>
+        <sys_created_by>rajat@pamtconsulting.com</sys_created_by>
+        <sys_created_on>2024-10-04 01:53:37</sys_created_on>
+        <sys_id>82f61edd1b0d5e10aeed10ee034bcbd7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NowSpace" source="x_pamtn_nowspace">41a691151bc55e10aeed10ee034bcb4a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NowSpace">41a691151bc55e10aeed10ee034bcb4a</sys_scope>
+        <sys_update_name>sp_instance_ais_82f61edd1b0d5e10aeed10ee034bcbd7</sys_update_name>
+        <sys_updated_by>rajat@pamtconsulting.com</sys_updated_by>
+        <sys_updated_on>2024-10-04 01:53:37</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_ais>
+    <sys_translated_text action="DELETE" query="documentkey=82f61edd1b0d5e10aeed10ee034bcbd7"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NowSpace">41a691151bc55e10aeed10ee034bcb4a</application>
+        <file_path/>
+        <instance_id>b4d47c43db3e70100ae3ac44d496199b</instance_id>
+        <instance_name>pamtconsultingincdemo8</instance_name>
+        <name>sp_instance_ais_82f61edd1b0d5e10aeed10ee034bcbd7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_ais"><sp_instance_ais action="INSERT_OR_UPDATE"><active>true</active><ai_search_source_filter/><class_name/><color>default</color><css/><disable_all_suggestions>false</disable_all_suggestions><glyph/><id/><order>1</order><placeholder/><roles/><search_application/><search_results_configuration/><short_description/><size>md</size><sp_column display_value="1">e8f61edd1b0d5e10aeed10ee034bcbef</sp_column><sp_widget display_value="NowSpace Homepage Search">94df61d91b495e10aeed10ee034bcb70</sp_widget><spell_check_font_size>xl</spell_check_font_size><sys_class_name>sp_instance_ais</sys_class_name><sys_created_by>rajat@pamtconsulting.com</sys_created_by><sys_created_on>2024-10-04 01:53:37</sys_created_on><sys_id>82f61edd1b0d5e10aeed10ee034bcbd7</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="NowSpace" source="x_pamtn_nowspace">41a691151bc55e10aeed10ee034bcb4a</sys_package><sys_policy/><sys_scope display_value="NowSpace">41a691151bc55e10aeed10ee034bcb4a</sys_scope><sys_update_name>sp_instance_ais_82f61edd1b0d5e10aeed10ee034bcbd7</sys_update_name><sys_updated_by>rajat@pamtconsulting.com</sys_updated_by><sys_updated_on>2024-10-04 01:53:37</sys_updated_on><title/><url/><widget_parameters/></sp_instance_ais><sys_translated_text action="delete_multiple" query="documentkey=82f61edd1b0d5e10aeed10ee034bcbd7"/></record_update>]]></payload>
+        <payload_hash>481006060</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>85a691151bc55e10aeed10ee034bcb4e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>rajat@pamtconsulting.com</sys_created_by>
+        <sys_created_on>2024-10-04 01:53:37</sys_created_on>
+        <sys_id>46f69edd1b0d5e10aeed10ee034bcbbf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192553b85bb0000001</sys_recorded_at>
+        <sys_updated_by>rajat@pamtconsulting.com</sys_updated_by>
+        <sys_updated_on>2024-10-04 01:53:37</sys_updated_on>
+        <type>Instance with Search</type>
+        <update_guid>0af69edda80d5e101edcf74c624ba1be</update_guid>
+        <update_guid_history>0af69edda80d5e101edcf74c624ba1be:481006060</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">87c792511b4d5e10aeed10ee034bcbb3</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>rajat@pamtconsulting.com</sys_created_by>
+        <sys_created_on>2024-10-04 01:57:14</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_ais">sp_instance_ais</sys_db_object>
+        <sys_id>2e8eaf2045ac47ce9167e89d884ac569</sys_id>
+        <sys_metadata>82f61edd1b0d5e10aeed10ee034bcbd7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NowSpace" source="x_pamtn_nowspace">41a691151bc55e10aeed10ee034bcb4a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NowSpace">41a691151bc55e10aeed10ee034bcb4a</sys_scope>
+        <sys_scope_delete display_value="">226bb2c86275403789a7ce1aaf7c9ef9</sys_scope_delete>
+        <sys_update_name>sp_instance_ais_82f61edd1b0d5e10aeed10ee034bcbd7</sys_update_name>
+        <sys_update_version display_value="sp_instance_ais_82f61edd1b0d5e10aeed10ee034bcbd7">46f69edd1b0d5e10aeed10ee034bcbbf</sys_update_version>
+        <sys_updated_by>rajat@pamtconsulting.com</sys_updated_by>
+        <sys_updated_on>2024-10-04 01:57:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

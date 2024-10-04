@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function($scope) {
+  var c = this;
+  
+ function startScroll(container) {
+    const imageContainer = container.querySelector('.image-container');
+    imageContainer.style.transform = `translateX(-${imageContainer.clientWidth}px)`;
+}
+
+function stopScroll(container) {
+    const imageContainer = container.querySelector('.image-container');
+    imageContainer.style.transform = 'translateX(0)';
+}
+
+}
+]]></client_script>
+        <controller_as>c</controller_as>
+        <css>body {
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Ensures 3 cards per row */
+    gap: 30px; /* Adds space between cards */
+    padding: 20px;
+}
+
+.product-card {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.image-container {
+    overflow: hidden;
+    position: relative;
+}
+
+.image-container img {
+    width: 100%;
+    height: 220px; /* Fixed image height */
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.product-info {
+    padding: 20px;
+    text-align: left;
+}
+
+.price {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.address {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.tag {
+    background-color: #e0e0e0;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 12px;
+    color: #333;
+}
+
+.tag:hover {
+    background-color: #d0d0d0;
+}
+</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id/>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>NowSpace RealEsate card</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>rajat@pamtconsulting.com</sys_created_by>
+        <sys_created_on>2024-10-04 04:21:43</sys_created_on>
+        <sys_id>bf58f6111b019e10aeed10ee034bcb0f</sys_id>
+        <sys_mod_count>26</sys_mod_count>
+        <sys_name>NowSpace RealEsate card</sys_name>
+        <sys_package display_value="NowSpace" source="x_pamtn_nowspace">41a691151bc55e10aeed10ee034bcb4a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NowSpace">41a691151bc55e10aeed10ee034bcb4a</sys_scope>
+        <sys_update_name>sp_widget_bf58f6111b019e10aeed10ee034bcb0f</sys_update_name>
+        <sys_updated_by>rajat@pamtconsulting.com</sys_updated_by>
+        <sys_updated_on>2024-10-04 05:01:46</sys_updated_on>
+        <template><![CDATA[<div class="container">
+  <div class="grid-container">
+    <div class="product-card">
+      <div class="image-container">
+        <img src="landing.png" alt="Morning Set">
+      </div>
+      <div class="product-info">
+        <h2 class="price">$570,000</h2>
+        <p class="address">15 S Aurora Ave, Miami</p>
+        <div class="tags">
+          <span class="tag">2 bedrooms</span>
+          <span class="tag">3 rooms</span>
+          <span class="tag">1220 Sq. ft</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <div class="image-container">
+        <img src="landing.png" alt="Morning Set">
+      </div>
+      <div class="product-info">
+        <h2 class="price">$720,000</h2>
+        <p class="address">4400 Fox Lake, Miami</p>
+        <div class="tags">
+          <span class="tag">2 bedrooms</span>
+          <span class="tag">5 rooms</span>
+          <span class="tag">1610 Sq. ft</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <div class="image-container">
+        <img src="landing.png" alt="Morning Set">
+      </div>
+      <div class="product-info">
+        <h2 class="price">$800,990</h2>
+        <p class="address">50 Gulf Blvd, Miami</p>
+        <div class="tags">
+          <span class="tag">2 bedrooms</span>
+          <span class="tag">5 rooms</span>
+          <span class="tag">1862 Sq. ft</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <div class="image-container">
+        <img src="landing.png" alt="Morning Set">
+      </div>
+      <div class="product-info">
+        <h2 class="price">$820,745</h2>
+        <p class="address">800 Bluff Springs Rd, Miami</p>
+        <div class="tags">
+          <span class="tag">2 bedrooms</span>
+          <span class="tag">6 rooms</span>
+          <span class="tag">2066 Sq. ft</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+]]></template>
+    </sp_widget>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>bf58f6111b019e10aeed10ee034bcb0f</id>
+        <sys_created_by>rajat@pamtconsulting.com</sys_created_by>
+        <sys_created_on>2024-10-04 04:20:26</sys_created_on>
+        <sys_id>2098fa111b019e10aeed10ee034bcb57</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rajat@pamtconsulting.com</sys_updated_by>
+        <sys_updated_on>2024-10-04 04:20:26</sys_updated_on>
+        <table>sp_widget</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

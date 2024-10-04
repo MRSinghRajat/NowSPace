@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_creatorstudio_request_app_config">
+    <sn_creatorstudio_request_app_config action="INSERT_OR_UPDATE">
+        <color>grouped-blue</color>
+        <icon>vacation-outline</icon>
+        <is_deleting>false</is_deleting>
+        <name>NowSpace</name>
+        <request_table>x_pamtn_nowspace_request</request_table>
+        <sys_class_name>sn_creatorstudio_request_app_config</sys_class_name>
+        <sys_created_by>rajat@pamtconsulting.com</sys_created_by>
+        <sys_created_on>2024-10-03 21:12:41</sys_created_on>
+        <sys_id>3aa615151bc55e10aeed10ee034bcb66</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>false</sys_name>
+        <sys_package display_value="NowSpace" source="x_pamtn_nowspace">41a691151bc55e10aeed10ee034bcb4a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NowSpace">41a691151bc55e10aeed10ee034bcb4a</sys_scope>
+        <sys_update_name>sn_creatorstudio_request_app_config_3aa615151bc55e10aeed10ee034bcb66</sys_update_name>
+        <sys_updated_by>rajat@pamtconsulting.com</sys_updated_by>
+        <sys_updated_on>2024-10-03 21:12:41</sys_updated_on>
+    </sn_creatorstudio_request_app_config>
+</record_update>

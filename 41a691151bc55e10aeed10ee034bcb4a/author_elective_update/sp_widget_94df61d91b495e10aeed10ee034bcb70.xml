@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="DELETE">
+        <category>custom</category>
+        <client_script><![CDATA[function($scope) {
+  var c = this;
+  
+  // Options for the dropdowns
+  c.homeTypes = ['New home', 'Old home', 'Apartment', 'Condo'];
+  c.roomOptions = ['1 room', '2 rooms', '3 rooms', '4 rooms'];
+  c.priceRanges = ['$100,000 - $300,000', '$300,000 - $500,000', '$500,000 - $700,000', '$700,000 - $1,000,000'];
+
+  c.selectedOption = 'buy'; // Default selected option
+  
+  c.selectOption = function(option) {
+    c.selectedOption = option;
+  };
+  
+  c.showOnMap = function() {
+    // Logic to show the map based on the location
+    alert("Showing map for: " + c.location);
+  };
+  
+  c.searchProperties = function() {
+    // Logic to handle search functionality
+    alert("Searching properties for: " + c.homeType + ", " + c.rooms + ", " + c.priceRange + " in " + c.location);
+  };
+}
+]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.real-estate-search-container {
+  position: relative;
+  text-align: left;
+  padding: 200px 200px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  color: black;
+  overflow: hidden;
+  height: 500px;
+}
+
+/* Wrapper around content to provide transparency */
+.content-wrapper {
+  background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white background */
+  padding: 20px;
+  border-radius: 10px;
+  max-width:fit-content;
+    
+}
+
+.video-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -1;
+}
+
+#backgroundVideo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.real-estate-search-container h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+  z-index: 1;
+  position: relative;
+}
+
+.search-bar-wrapper {
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  margin: 0 auto;
+}
+
+.filter-buttons {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+  position: sticky;
+  top: -15px;
+}
+
+.filter-buttons button {
+  background-color: rgba(240, 240, 240, 0.9);
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 5px;
+  color: #000;
+}
+
+.filter-buttons button.active {
+  background-color: rgba(51, 51, 51, 0.9);
+  color: white;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 8px;
+  padding: 10px;
+  gap: 10px;
+  z-index: 1;
+  position: relative;
+}
+
+.dropdown, .location-input {
+  padding: 10px;
+  font-size: 1em;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  color: #000;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.map-button, .search-button {
+  background-color: #007bff;
+  border: none;
+  padding: 10px 15px;
+  font-size: 1em;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.search-button i {
+  font-size: 1.2em;
+}
+</css>
+        <data_table>sp_instance_ais</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list>title,short_description,search_application,search_results_configuration,disable_all_suggestions,placeholder,ai_search_source_filter</field_list>
+        <has_preview>false</has_preview>
+        <id>nowspace_homepage_search</id>
+        <internal>false</internal>
+        <link><![CDATA[function link() {
+      var geckoRegex = /Gecko\/\d+/; // Remove forced-colors css for Gecko engine (Firefox) as they already handle it
+      if (geckoRegex.test(navigator.userAgent)) {
+        $('.sp-search-heading').removeClass('sp-search-heading');
+      }
+}]]></link>
+        <name>NowSpace Homepage Search</name>
+        <option_schema>[{"name":"typeahead_search","default_value":"{title: 'How can we help?', size: 'lg', color: 'default'}","section":"Presentation","label":"Typeahead Search","type":"string"}]</option_schema>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[var aisEnabled = $sp.isAISearchEnabled();
+
+if (aisEnabled)
+	data.typeAheadSearch = $sp.getWidget('typeahead-search', options);
+else
+	data.typeAheadSearch = $sp.getWidget('typeahead-search', options.typeahead_search);]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>rajat@pamtconsulting.com</sys_created_by>
+        <sys_created_on>2024-10-03 23:02:33</sys_created_on>
+        <sys_id>94df61d91b495e10aeed10ee034bcb70</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>NowSpace Homepage Search</sys_name>
+        <sys_package display_value="NowSpace" source="x_pamtn_nowspace">41a691151bc55e10aeed10ee034bcb4a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NowSpace">41a691151bc55e10aeed10ee034bcb4a</sys_scope>
+        <sys_update_name>sp_widget_94df61d91b495e10aeed10ee034bcb70</sys_update_name>
+        <sys_updated_by>rajat@pamtconsulting.com</sys_updated_by>
+        <sys_updated_on>2024-10-04 02:39:43</sys_updated_on>
+        <template><![CDATA[<div class="real-estate-search-container">
+  <!-- Background Video confined to widget area -->
+  <div class="video-wrapper">
+    <video autoplay muted loop id="backgroundVideo">
+      <source src="banner.mp4" type="video/mp4"> <!-- Replace with your video URL -->
+      Your browser does not support the video tag.
+    </video>
+  </div>
+  
+  <!-- Add a semi-transparent background wrapper around all content -->
+  <div class="content-wrapper">
+    <h1>Find your dream apartment</h1>
+
+    <div class="search-bar-wrapper">
+      <!-- Filter buttons attached on top of the search bar -->
+      <div class="filter-buttons">
+        <button ng-click="c.selectOption('buy')" ng-class="{'active': c.selectedOption === 'buy'}">Buy</button>
+        <button ng-click="c.selectOption('rent')" ng-class="{'active': c.selectedOption === 'rent'}">Rent</button>
+        <button ng-click="c.selectOption('sell')" ng-class="{'active': c.selectedOption === 'sell'}">Sell</button>
+        <button ng-click="c.selectOption('realtor')" ng-class="{'active': c.selectedOption === 'realtor'}">Realtor selection</button>
+      </div>
+
+      <!-- Search bar itself -->
+      <div class="search-bar">
+        <select ng-model="c.homeType" ng-options="type for type in c.homeTypes" class="dropdown">
+          <option value="">New home</option>
+        </select>
+        
+        <select ng-model="c.rooms" ng-options="room for room in c.roomOptions" class="dropdown">
+          <option value="">1, 2 rooms</option>
+        </select>
+        
+        <select ng-model="c.priceRange" ng-options="range for range in c.priceRanges" class="dropdown">
+          <option value="">$570,000 - $830,000</option>
+        </select>
+        
+        <input type="text" ng-model="c.location" placeholder="Miami 1142, United States" class="location-input">
+        
+        <div class="action-buttons">
+          <button class="map-button" ng-click="c.showOnMap()">Show on map</button>
+          <button class="search-button" ng-click="c.searchProperties()">
+            <i class="fa fa-search"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+]]></template>
+    </sp_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NowSpace">41a691151bc55e10aeed10ee034bcb4a</application>
+        <file_path/>
+        <instance_id>b4d47c43db3e70100ae3ac44d496199b</instance_id>
+        <instance_name>pamtconsultingincdemo8</instance_name>
+        <name>sp_widget_94df61d91b495e10aeed10ee034bcb70</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_widget"&gt;&lt;sp_widget action="INSERT_OR_UPDATE"&gt;&lt;category&gt;custom&lt;/category&gt;&lt;client_script&gt;&lt;![CDATA[function($scope) {
+  var c = this;
+  
+  // Options for the dropdowns
+  c.homeTypes = ['New home', 'Old home', 'Apartment', 'Condo'];
+  c.roomOptions = ['1 room', '2 rooms', '3 rooms', '4 rooms'];
+  c.priceRanges = ['$100,000 - $300,000', '$300,000 - $500,000', '$500,000 - $700,000', '$700,000 - $1,000,000'];
+
+  c.selectedOption = 'buy'; // Default selected option
+  
+  c.selectOption = function(option) {
+    c.selectedOption = option;
+  };
+  
+  c.showOnMap = function() {
+    // Logic to show the map based on the location
+    alert("Showing map for: " + c.location);
+  };
+  
+  c.searchProperties = function() {
+    // Logic to handle search functionality
+    alert("Searching properties for: " + c.homeType + ", " + c.rooms + ", " + c.priceRange + " in " + c.location);
+  };
+}
+]]&gt;&lt;/client_script&gt;&lt;controller_as&gt;c&lt;/controller_as&gt;&lt;css&gt;.real-estate-search-container {
+  position: relative;
+  text-align: left;
+  padding: 200px 200px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  color: black;
+  overflow: hidden;
+  height: 500px;
+}
+
+/* Wrapper around content to provide transparency */
+.content-wrapper {
+  background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white background */
+  padding: 20px;
+  border-radius: 10px;
+  max-width:fit-content;
+    
+}
+
+.video-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -1;
+}
+
+#backgroundVideo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.real-estate-search-container h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+  z-index: 1;
+  position: relative;
+}
+
+.search-bar-wrapper {
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  margin: 0 auto;
+}
+
+.filter-buttons {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+  position: sticky;
+  top: -15px;
+}
+
+.filter-buttons button {
+  background-color: rgba(240, 240, 240, 0.9);
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 5px;
+  color: #000;
+}
+
+.filter-buttons button.active {
+  background-color: rgba(51, 51, 51, 0.9);
+  color: white;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 8px;
+  padding: 10px;
+  gap: 10px;
+  z-index: 1;
+  position: relative;
+}
+
+.dropdown, .location-input {
+  padding: 10px;
+  font-size: 1em;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  color: #000;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.map-button, .search-button {
+  background-color: #007bff;
+  border: none;
+  padding: 10px 15px;
+  font-size: 1em;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.search-button i {
+  font-size: 1.2em;
+}
+&lt;/css&gt;&lt;data_table&gt;sp_instance_ais&lt;/data_table&gt;&lt;demo_data/&gt;&lt;description/&gt;&lt;docs/&gt;&lt;field_list&gt;title,short_description,search_application,search_results_configuration,disable_all_suggestions,placeholder,ai_search_source_filter&lt;/field_list&gt;&lt;has_preview&gt;false&lt;/has_preview&gt;&lt;id&gt;nowspace_homepage_search&lt;/id&gt;&lt;internal&gt;false&lt;/internal&gt;&lt;link&gt;&lt;![CDATA[function link() {
+      var geckoRegex = /Gecko\/\d+/; // Remove forced-colors css for Gecko engine (Firefox) as they already handle it
+      if (geckoRegex.test(navigator.userAgent)) {
+        $('.sp-search-heading').removeClass('sp-search-heading');
+      }
+}]]&gt;&lt;/link&gt;&lt;name&gt;NowSpace Homepage Search&lt;/name&gt;&lt;option_schema&gt;[{"name":"typeahead_search","default_value":"{title: 'How can we help?', size: 'lg', color: 'default'}","section":"Presentation","label":"Typeahead Search","type":"string"}]&lt;/option_schema&gt;&lt;public&gt;true&lt;/public&gt;&lt;roles/&gt;&lt;script&gt;&lt;![CDATA[var aisEnabled = $sp.isAISearchEnabled();
+
+if (aisEnabled)
+	data.typeAheadSearch = $sp.getWidget('typeahead-search', options);
+else
+	data.typeAheadSearch = $sp.getWidget('typeahead-search', options.typeahead_search);]]&gt;&lt;/script&gt;&lt;servicenow&gt;false&lt;/servicenow&gt;&lt;sys_class_name&gt;sp_widget&lt;/sys_class_name&gt;&lt;sys_created_by&gt;rajat@pamtconsulting.com&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-10-03 23:02:33&lt;/sys_created_on&gt;&lt;sys_id&gt;94df61d91b495e10aeed10ee034bcb70&lt;/sys_id&gt;&lt;sys_mod_count&gt;8&lt;/sys_mod_count&gt;&lt;sys_name&gt;NowSpace Homepage Search&lt;/sys_name&gt;&lt;sys_package display_value="NowSpace" source="x_pamtn_nowspace"&gt;41a691151bc55e10aeed10ee034bcb4a&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="NowSpace"&gt;41a691151bc55e10aeed10ee034bcb4a&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_widget_94df61d91b495e10aeed10ee034bcb70&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;rajat@pamtconsulting.com&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-10-04 02:39:43&lt;/sys_updated_on&gt;&lt;template&gt;&lt;![CDATA[&lt;div class="real-estate-search-container"&gt;
+  &lt;!-- Background Video confined to widget area --&gt;
+  &lt;div class="video-wrapper"&gt;
+    &lt;video autoplay muted loop id="backgroundVideo"&gt;
+      &lt;source src="banner.mp4" type="video/mp4"&gt; &lt;!-- Replace with your video URL --&gt;
+      Your browser does not support the video tag.
+    &lt;/video&gt;
+  &lt;/div&gt;
+  
+  &lt;!-- Add a semi-transparent background wrapper around all content --&gt;
+  &lt;div class="content-wrapper"&gt;
+    &lt;h1&gt;Find your dream apartment&lt;/h1&gt;
+
+    &lt;div class="search-bar-wrapper"&gt;
+      &lt;!-- Filter buttons attached on top of the search bar --&gt;
+      &lt;div class="filter-buttons"&gt;
+        &lt;button ng-click="c.selectOption('buy')" ng-class="{'active': c.selectedOption === 'buy'}"&gt;Buy&lt;/button&gt;
+        &lt;button ng-click="c.selectOption('rent')" ng-class="{'active': c.selectedOption === 'rent'}"&gt;Rent&lt;/button&gt;
+        &lt;button ng-click="c.selectOption('sell')" ng-class="{'active': c.selectedOption === 'sell'}"&gt;Sell&lt;/button&gt;
+        &lt;button ng-click="c.selectOption('realtor')" ng-class="{'active': c.selectedOption === 'realtor'}"&gt;Realtor selection&lt;/button&gt;
+      &lt;/div&gt;
+
+      &lt;!-- Search bar itself --&gt;
+      &lt;div class="search-bar"&gt;
+        &lt;select ng-model="c.homeType" ng-options="type for type in c.homeTypes" class="dropdown"&gt;
+          &lt;option value=""&gt;New home&lt;/option&gt;
+        &lt;/select&gt;
+        
+        &lt;select ng-model="c.rooms" ng-options="room for room in c.roomOptions" class="dropdown"&gt;
+          &lt;option value=""&gt;1, 2 rooms&lt;/option&gt;
+        &lt;/select&gt;
+        
+        &lt;select ng-model="c.priceRange" ng-options="range for range in c.priceRanges" class="dropdown"&gt;
+          &lt;option value=""&gt;$570,000 - $830,000&lt;/option&gt;
+        &lt;/select&gt;
+        
+        &lt;input type="text" ng-model="c.location" placeholder="Miami 1142, United States" class="location-input"&gt;
+        
+        &lt;div class="action-buttons"&gt;
+          &lt;button class="map-button" ng-click="c.showOnMap()"&gt;Show on map&lt;/button&gt;
+          &lt;button class="search-button" ng-click="c.searchProperties()"&gt;
+            &lt;i class="fa fa-search"&gt;&lt;/i&gt;
+          &lt;/button&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+]]&gt;&lt;/template&gt;&lt;/sp_widget&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1477213260</payload_hash>
+        <record_name>NowSpace Homepage Search</record_name>
+        <reverted_from/>
+        <source>85a691151bc55e10aeed10ee034bcb4e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>rajat@pamtconsulting.com</sys_created_by>
+        <sys_created_on>2024-10-04 02:39:43</sys_created_on>
+        <sys_id>1d81e2dd1b4d5e10aeed10ee034bcbb9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1925565ba480000001</sys_recorded_at>
+        <sys_updated_by>rajat@pamtconsulting.com</sys_updated_by>
+        <sys_updated_on>2024-10-04 02:39:43</sys_updated_on>
+        <type>Widget</type>
+        <update_guid>5181e2dd2e4d5e107dc007af8de53ab9</update_guid>
+        <update_guid_history>5181e2dd2e4d5e107dc007af8de53ab9:1477213260,00ebd6d51a4d5e10451ac0f4324ced0d:-2126651782,9e3b9e55754d5e10fb65616e9246199d:-502461929,0f7ad6550e4d5e104e557999615e0610:-1379847502,351916d12c4d5e10183214d005db8b2c:2016585497,16a89a510d4d5e103e95d84e925afe05:-1751743400,d1015ad5cd0d5e10a265aa945ecf8419:-155087708,6befe1d9b0495e10e1b3a1d9e7667801:1477213260,94df61d9f5495e10b689356e6ba28673:803308433</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="NowSpace Homepage Search">f7b22a511b8d5e10aeed10ee034bcb07</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>rajat@pamtconsulting.com</sys_created_by>
+        <sys_created_on>2024-10-04 02:45:05</sys_created_on>
+        <sys_db_object display_value="" name="sp_widget">sp_widget</sys_db_object>
+        <sys_id>31bb6e47dc494fb0983c8540645fb900</sys_id>
+        <sys_metadata>94df61d91b495e10aeed10ee034bcb70</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NowSpace Homepage Search</sys_name>
+        <sys_package display_value="NowSpace" source="x_pamtn_nowspace">41a691151bc55e10aeed10ee034bcb4a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NowSpace">41a691151bc55e10aeed10ee034bcb4a</sys_scope>
+        <sys_scope_delete display_value="">226bb2c86275403789a7ce1aaf7c9ef9</sys_scope_delete>
+        <sys_update_name>sp_widget_94df61d91b495e10aeed10ee034bcb70</sys_update_name>
+        <sys_update_version display_value="sp_widget_94df61d91b495e10aeed10ee034bcb70">1d81e2dd1b4d5e10aeed10ee034bcbb9</sys_update_version>
+        <sys_updated_by>rajat@pamtconsulting.com</sys_updated_by>
+        <sys_updated_on>2024-10-04 02:45:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

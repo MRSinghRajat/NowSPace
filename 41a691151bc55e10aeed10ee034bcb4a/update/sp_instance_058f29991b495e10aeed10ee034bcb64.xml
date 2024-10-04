@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>3</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">c18f29991b495e10aeed10ee034bcb4f</sp_column>
+        <sp_widget display_value="Quick Links">dae53627530030101865ddeeff7b12be</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>rajat@pamtconsulting.com</sys_created_by>
+        <sys_created_on>2024-10-03 23:01:15</sys_created_on>
+        <sys_id>058f29991b495e10aeed10ee034bcb64</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NowSpace" source="x_pamtn_nowspace">41a691151bc55e10aeed10ee034bcb4a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NowSpace">41a691151bc55e10aeed10ee034bcb4a</sys_scope>
+        <sys_update_name>sp_instance_058f29991b495e10aeed10ee034bcb64</sys_update_name>
+        <sys_updated_by>rajat@pamtconsulting.com</sys_updated_by>
+        <sys_updated_on>2024-10-03 23:01:15</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"title": {
+		"value": "",
+		"displayValue": ""
+	},
+	"card_type": {
+		"value": "Thumbnail",
+		"displayValue": "Thumbnail"
+	},
+	"card_size": {
+		"value": "Medium",
+		"displayValue": "Medium"
+	},
+	"text_alignment": {
+		"value": "Center",
+		"displayValue": "Center"
+	},
+	"show_icon": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"show_background": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"show_description": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"background_color": {
+		"value": "",
+		"displayValue": ""
+	},
+	"background_hexcode": {
+		"value": "",
+		"displayValue": ""
+	},
+	"icon_background_color": {
+		"value": "",
+		"displayValue": ""
+	},
+	"icon_background_hexcode": {
+		"value": "",
+		"displayValue": ""
+	},
+	"quick_links": {
+		"value": "9b729365e71130104cda66ef11e8a9a7,aff317a5e71130104cda66ef11e8a939,4e116048e76530104cda66ef11e8a9bc",
+		"displayValue": "Password Reset, System Status, Request Standing Desk"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=058f29991b495e10aeed10ee034bcb64"/>
+</record_update>

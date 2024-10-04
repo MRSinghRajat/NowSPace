@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_rel_widget_clone">
+    <sp_rel_widget_clone action="DELETE">
+        <child display_value="NowSpace Homepage Search">94df61d91b495e10aeed10ee034bcb70</child>
+        <cloned>2024-10-03 23:02:34</cloned>
+        <last_validated>2024-10-03 23:02:34</last_validated>
+        <parent display_value="Homepage Search">200fbd96cb20020000f8d856634c9ca1</parent>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;sp_widget&gt;&lt;category&gt;other&lt;/category&gt;&lt;client_script/&gt;&lt;controller_as/&gt;&lt;css&gt;.sp-tagline-color {
+	color: $sp-tagline-color;
+}
+
+@media (forced-colors: active) {
+  .sp-search-heading {
+    background-color: Canvas;
+  }
+}
+
+#homepage-search {
+  .aisearch {
+    --classicsponlydonotuse--rem-multipy: 1.6;
+  }
+}
+  &lt;/css&gt;&lt;data_table&gt;sp_instance_ais&lt;/data_table&gt;&lt;demo_data/&gt;&lt;description/&gt;&lt;docs/&gt;&lt;field_list&gt;title,short_description,search_application,search_results_configuration,disable_all_suggestions,placeholder,ai_search_source_filter&lt;/field_list&gt;&lt;has_preview&gt;false&lt;/has_preview&gt;&lt;id/&gt;&lt;internal&gt;false&lt;/internal&gt;&lt;link&gt;&lt;![CDATA[function link() {
+      var geckoRegex = /Gecko\/\d+/; // Remove forced-colors css for Gecko engine (Firefox) as they already handle it
+      if (geckoRegex.test(navigator.userAgent)) {
+        $('.sp-search-heading').removeClass('sp-search-heading');
+      }
+}]]&gt;&lt;/link&gt;&lt;name&gt;Homepage Search&lt;/name&gt;&lt;option_schema&gt;[{"name":"typeahead_search","default_value":"{title: 'How can we help?', size: 'lg', color: 'default'}","section":"Presentation","label":"Typeahead Search","type":"string"}]&lt;/option_schema&gt;&lt;public&gt;true&lt;/public&gt;&lt;roles/&gt;&lt;script&gt;&lt;![CDATA[var aisEnabled = $sp.isAISearchEnabled();
+
+if (aisEnabled)
+	data.typeAheadSearch = $sp.getWidget('typeahead-search', options);
+else
+	data.typeAheadSearch = $sp.getWidget('typeahead-search', options.typeahead_search);]]&gt;&lt;/script&gt;&lt;servicenow&gt;true&lt;/servicenow&gt;&lt;sys_class_name&gt;sp_widget&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2015-06-11 23:02:03&lt;/sys_created_on&gt;&lt;sys_id&gt;200fbd96cb20020000f8d856634c9ca1&lt;/sys_id&gt;&lt;sys_mod_count&gt;152&lt;/sys_mod_count&gt;&lt;sys_name&gt;Homepage Search&lt;/sys_name&gt;&lt;sys_package display_value="Service Portal - Core" source="com.glide.service-portal"&gt;997387cb1bb63010aeed10ee034bcbc5&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_widget_200fbd96cb20020000f8d856634c9ca1&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-03-05 11:32:47&lt;/sys_updated_on&gt;&lt;template&gt;&lt;![CDATA[&lt;div id="homepage-search" class="hidden-xs wrapper-xl"&gt;
+  &lt;div class="wrapper-xl"&gt;
+  	&lt;h2 class="text-center text-4x m-b-lg sp-tagline-color sp-search-heading" ng-bind="options.title"&gt;&lt;/h2&gt;
+  	&lt;div ng-if="options.short_description" class="text-center h4 m-b-lg sp-tagline-color" ng-bind="options.short_description"&gt;&lt;/div&gt;
+  	&lt;sp-widget widget="data.typeAheadSearch"&gt;&lt;/sp-widget&gt;
+  &lt;/div&gt;
+&lt;/div&gt;]]&gt;&lt;/template&gt;&lt;/sp_widget&gt;</payload>
+        <sys_class_name>sp_rel_widget_clone</sys_class_name>
+        <sys_created_by>rajat@pamtconsulting.com</sys_created_by>
+        <sys_created_on>2024-10-03 23:02:34</sys_created_on>
+        <sys_id>d4df61d91b495e10aeed10ee034bcb75</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>94df61d91b495e10aeed10ee034bcb70</sys_name>
+        <sys_package display_value="NowSpace" source="x_pamtn_nowspace">41a691151bc55e10aeed10ee034bcb4a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NowSpace">41a691151bc55e10aeed10ee034bcb4a</sys_scope>
+        <sys_update_name>sp_rel_widget_clone_d4df61d91b495e10aeed10ee034bcb75</sys_update_name>
+        <sys_updated_by>rajat@pamtconsulting.com</sys_updated_by>
+        <sys_updated_on>2024-10-03 23:02:34</sys_updated_on>
+    </sp_rel_widget_clone>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NowSpace">41a691151bc55e10aeed10ee034bcb4a</application>
+        <file_path/>
+        <instance_id>b4d47c43db3e70100ae3ac44d496199b</instance_id>
+        <instance_name>pamtconsultingincdemo8</instance_name>
+        <name>sp_rel_widget_clone_d4df61d91b495e10aeed10ee034bcb75</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_rel_widget_clone"><sp_rel_widget_clone action="INSERT_OR_UPDATE"><child display_value="NowSpace Homepage Search">94df61d91b495e10aeed10ee034bcb70</child><cloned>2024-10-03 23:02:34</cloned><last_validated>2024-10-03 23:02:34</last_validated><parent display_value="Homepage Search">200fbd96cb20020000f8d856634c9ca1</parent><payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;sp_widget&gt;&lt;category&gt;other&lt;/category&gt;&lt;client_script/&gt;&lt;controller_as/&gt;&lt;css&gt;.sp-tagline-color {
+	color: $sp-tagline-color;
+}
+
+@media (forced-colors: active) {
+  .sp-search-heading {
+    background-color: Canvas;
+  }
+}
+
+#homepage-search {
+  .aisearch {
+    --classicsponlydonotuse--rem-multipy: 1.6;
+  }
+}
+  &lt;/css&gt;&lt;data_table&gt;sp_instance_ais&lt;/data_table&gt;&lt;demo_data/&gt;&lt;description/&gt;&lt;docs/&gt;&lt;field_list&gt;title,short_description,search_application,search_results_configuration,disable_all_suggestions,placeholder,ai_search_source_filter&lt;/field_list&gt;&lt;has_preview&gt;false&lt;/has_preview&gt;&lt;id/&gt;&lt;internal&gt;false&lt;/internal&gt;&lt;link&gt;&lt;![CDATA[function link() {
+      var geckoRegex = /Gecko\/\d+/; // Remove forced-colors css for Gecko engine (Firefox) as they already handle it
+      if (geckoRegex.test(navigator.userAgent)) {
+        $('.sp-search-heading').removeClass('sp-search-heading');
+      }
+}]]&gt;&lt;/link&gt;&lt;name&gt;Homepage Search&lt;/name&gt;&lt;option_schema&gt;[{"name":"typeahead_search","default_value":"{title: 'How can we help?', size: 'lg', color: 'default'}","section":"Presentation","label":"Typeahead Search","type":"string"}]&lt;/option_schema&gt;&lt;public&gt;true&lt;/public&gt;&lt;roles/&gt;&lt;script&gt;&lt;![CDATA[var aisEnabled = $sp.isAISearchEnabled();
+
+if (aisEnabled)
+	data.typeAheadSearch = $sp.getWidget('typeahead-search', options);
+else
+	data.typeAheadSearch = $sp.getWidget('typeahead-search', options.typeahead_search);]]&gt;&lt;/script&gt;&lt;servicenow&gt;true&lt;/servicenow&gt;&lt;sys_class_name&gt;sp_widget&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2015-06-11 23:02:03&lt;/sys_created_on&gt;&lt;sys_id&gt;200fbd96cb20020000f8d856634c9ca1&lt;/sys_id&gt;&lt;sys_mod_count&gt;152&lt;/sys_mod_count&gt;&lt;sys_name&gt;Homepage Search&lt;/sys_name&gt;&lt;sys_package display_value="Service Portal - Core" source="com.glide.service-portal"&gt;997387cb1bb63010aeed10ee034bcbc5&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_widget_200fbd96cb20020000f8d856634c9ca1&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-03-05 11:32:47&lt;/sys_updated_on&gt;&lt;template&gt;&lt;![CDATA[&lt;div id="homepage-search" class="hidden-xs wrapper-xl"&gt;
+  &lt;div class="wrapper-xl"&gt;
+  	&lt;h2 class="text-center text-4x m-b-lg sp-tagline-color sp-search-heading" ng-bind="options.title"&gt;&lt;/h2&gt;
+  	&lt;div ng-if="options.short_description" class="text-center h4 m-b-lg sp-tagline-color" ng-bind="options.short_description"&gt;&lt;/div&gt;
+  	&lt;sp-widget widget="data.typeAheadSearch"&gt;&lt;/sp-widget&gt;
+  &lt;/div&gt;
+&lt;/div&gt;]]&gt;&lt;/template&gt;&lt;/sp_widget&gt;</payload><sys_class_name>sp_rel_widget_clone</sys_class_name><sys_created_by>rajat@pamtconsulting.com</sys_created_by><sys_created_on>2024-10-03 23:02:34</sys_created_on><sys_id>d4df61d91b495e10aeed10ee034bcb75</sys_id><sys_mod_count>0</sys_mod_count><sys_name>94df61d91b495e10aeed10ee034bcb70</sys_name><sys_package display_value="NowSpace" source="x_pamtn_nowspace">41a691151bc55e10aeed10ee034bcb4a</sys_package><sys_policy/><sys_scope display_value="NowSpace">41a691151bc55e10aeed10ee034bcb4a</sys_scope><sys_update_name>sp_rel_widget_clone_d4df61d91b495e10aeed10ee034bcb75</sys_update_name><sys_updated_by>rajat@pamtconsulting.com</sys_updated_by><sys_updated_on>2024-10-03 23:02:34</sys_updated_on></sp_rel_widget_clone></record_update>]]></payload>
+        <payload_hash>-1679156919</payload_hash>
+        <record_name>94df61d91b495e10aeed10ee034bcb70</record_name>
+        <reverted_from/>
+        <source>85a691151bc55e10aeed10ee034bcb4e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>rajat@pamtconsulting.com</sys_created_by>
+        <sys_created_on>2024-10-03 23:02:34</sys_created_on>
+        <sys_id>54df61d91b495e10aeed10ee034bcb78</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192549eebb50000001</sys_recorded_at>
+        <sys_updated_by>rajat@pamtconsulting.com</sys_updated_by>
+        <sys_updated_on>2024-10-03 23:02:34</sys_updated_on>
+        <type>Widget Clone</type>
+        <update_guid>d4df61d92b495e10473f978f4c318e77</update_guid>
+        <update_guid_history>d4df61d92b495e10473f978f4c318e77:-1679156919</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">33b26a511b8d5e10aeed10ee034bcb61</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>rajat@pamtconsulting.com</sys_created_by>
+        <sys_created_on>2024-10-04 02:45:04</sys_created_on>
+        <sys_db_object display_value="" name="sp_rel_widget_clone">sp_rel_widget_clone</sys_db_object>
+        <sys_id>48d6af4a3a514f5f9c6576e9a60c6651</sys_id>
+        <sys_metadata>d4df61d91b495e10aeed10ee034bcb75</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>94df61d91b495e10aeed10ee034bcb70</sys_name>
+        <sys_package display_value="NowSpace" source="x_pamtn_nowspace">41a691151bc55e10aeed10ee034bcb4a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NowSpace">41a691151bc55e10aeed10ee034bcb4a</sys_scope>
+        <sys_scope_delete display_value="">226bb2c86275403789a7ce1aaf7c9ef9</sys_scope_delete>
+        <sys_update_name>sp_rel_widget_clone_d4df61d91b495e10aeed10ee034bcb75</sys_update_name>
+        <sys_update_version display_value="sp_rel_widget_clone_d4df61d91b495e10aeed10ee034bcb75">54df61d91b495e10aeed10ee034bcb78</sys_update_version>
+        <sys_updated_by>rajat@pamtconsulting.com</sys_updated_by>
+        <sys_updated_on>2024-10-04 02:45:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
