@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Showing">1a579d151bc55e10aeed10ee034bcb5d</sc_cat_item>
+        <sc_category display_value="Request Something">df8224483bc02300bfe04d72f3efc4b1</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>rajat@pamtconsulting.com</sys_created_by>
+        <sys_created_on>2024-10-03 21:15:40</sys_created_on>
+        <sys_id>aa5755551bc55e10aeed10ee034bcb96</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Request Something.Showing</sys_name>
+        <sys_package display_value="NowSpace" source="x_pamtn_nowspace">41a691151bc55e10aeed10ee034bcb4a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NowSpace">41a691151bc55e10aeed10ee034bcb4a</sys_scope>
+        <sys_update_name>sc_cat_item_category_aa5755551bc55e10aeed10ee034bcb96</sys_update_name>
+        <sys_updated_by>rajat@pamtconsulting.com</sys_updated_by>
+        <sys_updated_on>2024-10-04 13:24:13</sys_updated_on>
+    </sc_cat_item_category>
+</record_update>
