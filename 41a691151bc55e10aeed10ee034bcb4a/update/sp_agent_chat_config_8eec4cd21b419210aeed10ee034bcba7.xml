@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_agent_chat_config">
+    <sp_agent_chat_config action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <name>Space portal</name>
+        <order>100</order>
+        <portal>506d2dd11b495e10aeed10ee034bcb97</portal>
+        <public>true</public>
+        <roles/>
+        <server_script><![CDATA[(function($sp) {
+	return {
+		live_agent_queue: $sp.getDisplayValue('sp_chat_queue')
+		};
+})($sp);]]></server_script>
+        <sys_class_name>sp_agent_chat_config</sys_class_name>
+        <sys_created_by>rajat@pamtconsulting.com</sys_created_by>
+        <sys_created_on>2024-10-06 18:26:18</sys_created_on>
+        <sys_id>8eec4cd21b419210aeed10ee034bcba7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Space portal</sys_name>
+        <sys_package display_value="NowSpace" source="x_pamtn_nowspace">41a691151bc55e10aeed10ee034bcb4a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NowSpace">41a691151bc55e10aeed10ee034bcb4a</sys_scope>
+        <sys_update_name>sp_agent_chat_config_8eec4cd21b419210aeed10ee034bcba7</sys_update_name>
+        <sys_updated_by>rajat@pamtconsulting.com</sys_updated_by>
+        <sys_updated_on>2024-10-06 18:26:18</sys_updated_on>
+    </sp_agent_chat_config>
+    <sys_translated_text action="delete_multiple" query="documentkey=8eec4cd21b419210aeed10ee034bcba7"/>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>8eec4cd21b419210aeed10ee034bcba7</id>
+        <sys_created_by>rajat@pamtconsulting.com</sys_created_by>
+        <sys_created_on>2024-10-06 18:26:18</sys_created_on>
+        <sys_id>e25d0cd21b419210aeed10ee034bcba7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rajat@pamtconsulting.com</sys_updated_by>
+        <sys_updated_on>2024-10-06 18:26:18</sys_updated_on>
+        <table>sp_agent_chat_config</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

@@ -85,7 +85,7 @@ main.body {&#13;
         <id>nowpsace_ec_home</id>
         <internal>false</internal>
         <omit_watcher>false</omit_watcher>
-        <public>false</public>
+        <public>true</public>
         <roles/>
         <seo_script/>
         <short_description>An employee's one stop shop to get help.</short_description>
@@ -93,14 +93,14 @@ main.body {&#13;
         <sys_created_by>rajat@pamtconsulting.com</sys_created_by>
         <sys_created_on>2024-10-03 23:01:13</sys_created_on>
         <sys_id>648f65991b495e10aeed10ee034bcb31</sys_id>
-        <sys_mod_count>20</sys_mod_count>
+        <sys_mod_count>21</sys_mod_count>
         <sys_name>nowpsace_ec_home</sys_name>
         <sys_package display_value="NowSpace" source="x_pamtn_nowspace">41a691151bc55e10aeed10ee034bcb4a</sys_package>
         <sys_policy/>
         <sys_scope display_value="NowSpace">41a691151bc55e10aeed10ee034bcb4a</sys_scope>
         <sys_update_name>sp_page_648f65991b495e10aeed10ee034bcb31</sys_update_name>
         <sys_updated_by>rajat@pamtconsulting.com</sys_updated_by>
-        <sys_updated_on>2024-10-04 04:43:21</sys_updated_on>
+        <sys_updated_on>2024-10-05 16:39:38</sys_updated_on>
         <title>NowSpace Ec Home</title>
         <use_seo_script>false</use_seo_script>
     </sp_page>

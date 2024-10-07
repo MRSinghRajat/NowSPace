@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>rajat@pamtconsulting.com</sys_created_by>
+        <sys_created_on>2024-10-06 18:16:30</sys_created_on>
+        <sys_id>5b1b08121b419210aeed10ee034bcb0c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x.pamtn.space.*.x_pamtn_nowspace.nowspace_contracts_user</sys_name>
+        <sys_package display_value="NowSpace" source="x_pamtn_nowspace">41a691151bc55e10aeed10ee034bcb4a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NowSpace">41a691151bc55e10aeed10ee034bcb4a</sys_scope>
+        <sys_security_acl display_value="x.pamtn.space.*">8d1b44129f419210da4b62637bb92eaa</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_5b1b08121b419210aeed10ee034bcb0c</sys_update_name>
+        <sys_updated_by>rajat@pamtconsulting.com</sys_updated_by>
+        <sys_updated_on>2024-10-06 18:16:30</sys_updated_on>
+        <sys_user_role display_value="x_pamtn_nowspace.nowspace_contracts_user" name="x_pamtn_nowspace.nowspace_contracts_user">28d000921b499210a2a61f4d2b4bcbbd</sys_user_role>
+    </sys_security_acl_role>
+</record_update>

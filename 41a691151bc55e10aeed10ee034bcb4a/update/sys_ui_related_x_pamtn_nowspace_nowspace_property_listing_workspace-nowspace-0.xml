@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="global" table="x_pamtn_nowspace_nowspace_property_listing" version="2" view="workspace-nowspace-0">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="NowSpace Property Listing - Workspace NowSpace 0" name="x_pamtn_nowspace_nowspace_property_listing" related_list="NULL" sys_domain="global" view="c91b4412f64192101bf661a09e1422aa">972b8c121b419210aeed10ee034bcb55</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>REL:b9edf0ca0a0a0b010035de2d6b579a03</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>rajat@pamtconsulting.com</sys_created_by>
+            <sys_created_on>2024-10-06 18:16:47</sys_created_on>
+            <sys_id>532b8c121b419210aeed10ee034bcb56</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rajat@pamtconsulting.com</sys_updated_by>
+            <sys_updated_on>2024-10-06 18:16:47</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="NowSpace Property Listing - Workspace NowSpace 0" name="x_pamtn_nowspace_nowspace_property_listing" related_list="NULL" sys_domain="global" view="c91b4412f64192101bf661a09e1422aa">972b8c121b419210aeed10ee034bcb55</list_id>
+            <order_by/>
+            <position>1</position>
+            <related_list>x_pamtn_nowspace_nowspace_contracts.nowspace_property</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>rajat@pamtconsulting.com</sys_created_by>
+            <sys_created_on>2024-10-06 18:16:47</sys_created_on>
+            <sys_id>572b8c121b419210aeed10ee034bcb56</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rajat@pamtconsulting.com</sys_updated_by>
+            <sys_updated_on>2024-10-06 18:16:47</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>NowSpace Property Listing - Workspace NowSpace 0</calculated_name>
+            <filter/>
+            <name>x_pamtn_nowspace_nowspace_property_listing</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>rajat@pamtconsulting.com</sys_created_by>
+            <sys_created_on>2024-10-06 18:16:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>972b8c121b419210aeed10ee034bcb55</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>NowSpace Property Listing - Workspace NowSpace 0</sys_name>
+            <sys_package display_value="NowSpace" source="x_pamtn_nowspace">41a691151bc55e10aeed10ee034bcb4a</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NowSpace">41a691151bc55e10aeed10ee034bcb4a</sys_scope>
+            <sys_update_name>sys_ui_related_x_pamtn_nowspace_nowspace_property_listing_workspace-nowspace-0</sys_update_name>
+            <sys_updated_by>rajat@pamtconsulting.com</sys_updated_by>
+            <sys_updated_on>2024-10-06 18:16:47</sys_updated_on>
+            <sys_user/>
+            <view display_value="Workspace NowSpace 0" name="workspace-nowspace-0">c91b4412f64192101bf661a09e1422aa</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>

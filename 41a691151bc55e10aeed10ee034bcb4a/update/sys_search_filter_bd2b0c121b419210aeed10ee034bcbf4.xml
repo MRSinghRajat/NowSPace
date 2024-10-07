@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_filter">
+    <sys_search_filter action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <ais_search_source display_value="NowSpace Property Listing">3d2b0c121b419210aeed10ee034bcbeb</ais_search_source>
+        <label>NowSpace Property Listing</label>
+        <name>NowSpace Property Listing</name>
+        <order>200</order>
+        <search_context_config display_value="NowSpace AI Search Configuration">4d1b44120e41921059022abf664841ab</search_context_config>
+        <sys_class_name>sys_search_filter</sys_class_name>
+        <sys_created_by>rajat@pamtconsulting.com</sys_created_by>
+        <sys_created_on>2024-10-06 18:16:41</sys_created_on>
+        <sys_id>bd2b0c121b419210aeed10ee034bcbf4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NowSpace Property Listing</sys_name>
+        <sys_package display_value="NowSpace" source="x_pamtn_nowspace">41a691151bc55e10aeed10ee034bcb4a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NowSpace">41a691151bc55e10aeed10ee034bcb4a</sys_scope>
+        <sys_update_name>sys_search_filter_bd2b0c121b419210aeed10ee034bcbf4</sys_update_name>
+        <sys_updated_by>rajat@pamtconsulting.com</sys_updated_by>
+        <sys_updated_on>2024-10-06 18:16:41</sys_updated_on>
+    </sys_search_filter>
+</record_update>

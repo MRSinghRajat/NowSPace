@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Ribbon Config ID</description>
+        <name>ribbonConfigId</name>
+        <page display_value="NowSpace">c91b4412f0419210a9ff9817b0e576b4</page>
+        <required_translations/>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>rajat@pamtconsulting.com</sys_created_by>
+        <sys_created_on>2024-10-06 18:16:24</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>811b44127941921065c02f9e10c231a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ribbonConfigId</sys_name>
+        <sys_package display_value="NowSpace" source="x_pamtn_nowspace">41a691151bc55e10aeed10ee034bcb4a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NowSpace">41a691151bc55e10aeed10ee034bcb4a</sys_scope>
+        <sys_update_name>sys_ux_page_property_811b44127941921065c02f9e10c231a4</sys_update_name>
+        <sys_updated_by>rajat@pamtconsulting.com</sys_updated_by>
+        <sys_updated_on>2024-10-06 18:16:24</sys_updated_on>
+        <type>string</type>
+        <unique_name>x_pamtn_nowspace.c91b4412f0419210a9ff9817b0e576b4.root.ribbonConfigId</unique_name>
+        <value>c91b4412e6419210a0a87547c4ba81a4</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=811b44127941921065c02f9e10c231a4"/>
+</record_update>

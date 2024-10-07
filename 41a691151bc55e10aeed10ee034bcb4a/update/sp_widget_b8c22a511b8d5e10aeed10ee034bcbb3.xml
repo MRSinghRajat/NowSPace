@@ -168,7 +168,7 @@
 }]]></link>
         <name>NowSpace Search</name>
         <option_schema/>
-        <public>false</public>
+        <public>true</public>
         <roles/>
         <script><![CDATA[(function() {
   /* populate the 'data' object */
@@ -180,14 +180,14 @@
         <sys_created_by>rajat@pamtconsulting.com</sys_created_by>
         <sys_created_on>2024-10-04 02:47:37</sys_created_on>
         <sys_id>b8c22a511b8d5e10aeed10ee034bcbb3</sys_id>
-        <sys_mod_count>33</sys_mod_count>
+        <sys_mod_count>38</sys_mod_count>
         <sys_name>NowSpace Search</sys_name>
         <sys_package display_value="NowSpace" source="x_pamtn_nowspace">41a691151bc55e10aeed10ee034bcb4a</sys_package>
         <sys_policy/>
         <sys_scope display_value="NowSpace">41a691151bc55e10aeed10ee034bcb4a</sys_scope>
         <sys_update_name>sp_widget_b8c22a511b8d5e10aeed10ee034bcbb3</sys_update_name>
         <sys_updated_by>rajat@pamtconsulting.com</sys_updated_by>
-        <sys_updated_on>2024-10-04 03:43:17</sys_updated_on>
+        <sys_updated_on>2024-10-05 17:22:10</sys_updated_on>
         <template><![CDATA[<div class="real-estate-search-container">
   <!-- Background Video confined to widget area -->
   <div class="video-wrapper">
@@ -199,7 +199,7 @@
   
   <!-- Add a semi-transparent background wrapper around all content -->
   <div class="content-wrapper">
-    <h1>Find your dream apartment</h1>
+    <h1>Find your dream Home For Rent</h1>
 
     <div class="search-bar-wrapper">
       <!-- Filter buttons attached on top of the search bar -->

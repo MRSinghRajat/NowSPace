@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Tabs Configuration</description>
+        <name>chrome_tab</name>
+        <page display_value="NowSpace">c91b4412f0419210a9ff9817b0e576b4</page>
+        <required_translations>[ {
+  "message" : "New Case",
+  "comment" : ""
+}, {
+  "message" : "New NowSpace Contracts",
+  "comment" : ""
+}, {
+  "message" : "New NowSpace Property Listing",
+  "comment" : ""
+}, {
+  "message" : "New NowSpace Request",
+  "comment" : ""
+} ]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>rajat@pamtconsulting.com</sys_created_by>
+        <sys_created_on>2024-10-06 18:16:24</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>4d1b4412954192101e19fb58000c35a5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>chrome_tab</sys_name>
+        <sys_package display_value="NowSpace" source="x_pamtn_nowspace">41a691151bc55e10aeed10ee034bcb4a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NowSpace">41a691151bc55e10aeed10ee034bcb4a</sys_scope>
+        <sys_update_name>sys_ux_page_property_4d1b4412954192101e19fb58000c35a5</sys_update_name>
+        <sys_updated_by>rajat@pamtconsulting.com</sys_updated_by>
+        <sys_updated_on>2024-10-06 18:16:40</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_pamtn_nowspace.c91b4412f0419210a9ff9817b0e576b4.root.global.chrome_tab</unique_name>
+        <value>{"contextual":["record"],"newTabMenu":[{"label":{"translatable":true,"message":"New Case"},"routeInfo":{"route":"record","fields":{"table":"sn_customerservice_case","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"sn_customerservice_case","canCreate":true}}},{"label":{"translatable":true,"message":"New NowSpace Property Listing"},"routeInfo":{"route":"record","fields":{"table":"x_pamtn_nowspace_nowspace_property_listing","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_pamtn_nowspace_nowspace_property_listing","canCreate":true}}},{"label":{"translatable":true,"message":"New NowSpace Request"},"routeInfo":{"route":"record","fields":{"table":"x_pamtn_nowspace_request","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_pamtn_nowspace_request","canCreate":true}}},{"label":{"translatable":true,"message":"New NowSpace Contracts"},"routeInfo":{"route":"record","fields":{"table":"x_pamtn_nowspace_nowspace_contracts","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_pamtn_nowspace_nowspace_contracts","canCreate":true}}}],"maxMainTabLimit":10,"maxTotalSubTabLimit":30}</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=4d1b4412954192101e19fb58000c35a5"/>
+</record_update>

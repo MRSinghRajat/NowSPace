@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="7f2b8c121b419210aeed10ee034bcbaf" sys_domain="global" table="x_pamtn_nowspace_nowspace_contracts" version="3" view="workspace-nowspace-0">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>rajat@pamtconsulting.com</sys_created_by>
+            <sys_created_on>2024-10-06 18:16:50</sys_created_on>
+            <sys_id>843bcc121b419210aeed10ee034bcb4f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_pamtn_nowspace_nowspace_contracts" sys_domain="global" view="c91b4412f64192101bf661a09e1422aa">7f2b8c121b419210aeed10ee034bcbaf</sys_ui_section>
+            <sys_updated_by>rajat@pamtconsulting.com</sys_updated_by>
+            <sys_updated_on>2024-10-06 18:16:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>contract_model</element>
+            <position>1</position>
+            <sys_created_by>rajat@pamtconsulting.com</sys_created_by>
+            <sys_created_on>2024-10-06 18:16:49</sys_created_on>
+            <sys_id>8c3bcc121b419210aeed10ee034bcb4b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_pamtn_nowspace_nowspace_contracts" sys_domain="global" view="c91b4412f64192101bf661a09e1422aa">7f2b8c121b419210aeed10ee034bcbaf</sys_ui_section>
+            <sys_updated_by>rajat@pamtconsulting.com</sys_updated_by>
+            <sys_updated_on>2024-10-06 18:16:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>short_description</element>
+            <position>2</position>
+            <sys_created_by>rajat@pamtconsulting.com</sys_created_by>
+            <sys_created_on>2024-10-06 18:16:49</sys_created_on>
+            <sys_id>8c3bcc121b419210aeed10ee034bcb49</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_pamtn_nowspace_nowspace_contracts" sys_domain="global" view="c91b4412f64192101bf661a09e1422aa">7f2b8c121b419210aeed10ee034bcbaf</sys_ui_section>
+            <sys_updated_by>rajat@pamtconsulting.com</sys_updated_by>
+            <sys_updated_on>2024-10-06 18:16:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>parent_contract</element>
+            <position>3</position>
+            <sys_created_by>rajat@pamtconsulting.com</sys_created_by>
+            <sys_created_on>2024-10-06 18:16:49</sys_created_on>
+            <sys_id>8c3bcc121b419210aeed10ee034bcb4a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_pamtn_nowspace_nowspace_contracts" sys_domain="global" view="c91b4412f64192101bf661a09e1422aa">7f2b8c121b419210aeed10ee034bcbaf</sys_ui_section>
+            <sys_updated_by>rajat@pamtconsulting.com</sys_updated_by>
+            <sys_updated_on>2024-10-06 18:16:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>starts</element>
+            <position>4</position>
+            <sys_created_by>rajat@pamtconsulting.com</sys_created_by>
+            <sys_created_on>2024-10-06 18:16:49</sys_created_on>
+            <sys_id>8c3bcc121b419210aeed10ee034bcb48</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_pamtn_nowspace_nowspace_contracts" sys_domain="global" view="c91b4412f64192101bf661a09e1422aa">7f2b8c121b419210aeed10ee034bcbaf</sys_ui_section>
+            <sys_updated_by>rajat@pamtconsulting.com</sys_updated_by>
+            <sys_updated_on>2024-10-06 18:16:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ends</element>
+            <position>5</position>
+            <sys_created_by>rajat@pamtconsulting.com</sys_created_by>
+            <sys_created_on>2024-10-06 18:16:50</sys_created_on>
+            <sys_id>843bcc121b419210aeed10ee034bcb4e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_pamtn_nowspace_nowspace_contracts" sys_domain="global" view="c91b4412f64192101bf661a09e1422aa">7f2b8c121b419210aeed10ee034bcbaf</sys_ui_section>
+            <sys_updated_by>rajat@pamtconsulting.com</sys_updated_by>
+            <sys_updated_on>2024-10-06 18:16:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>6</position>
+            <sys_created_by>rajat@pamtconsulting.com</sys_created_by>
+            <sys_created_on>2024-10-06 18:16:49</sys_created_on>
+            <sys_id>bb2b8c121b419210aeed10ee034bcbb2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_pamtn_nowspace_nowspace_contracts" sys_domain="global" view="c91b4412f64192101bf661a09e1422aa">7f2b8c121b419210aeed10ee034bcbaf</sys_ui_section>
+            <sys_updated_by>rajat@pamtconsulting.com</sys_updated_by>
+            <sys_updated_on>2024-10-06 18:16:49</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>nowspace_property</element>
+            <position>7</position>
+            <sys_created_by>rajat@pamtconsulting.com</sys_created_by>
+            <sys_created_on>2024-10-06 18:16:49</sys_created_on>
+            <sys_id>843bcc121b419210aeed10ee034bcb4d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_pamtn_nowspace_nowspace_contracts" sys_domain="global" view="c91b4412f64192101bf661a09e1422aa">7f2b8c121b419210aeed10ee034bcbaf</sys_ui_section>
+            <sys_updated_by>rajat@pamtconsulting.com</sys_updated_by>
+            <sys_updated_on>2024-10-06 18:16:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>8</position>
+            <sys_created_by>rajat@pamtconsulting.com</sys_created_by>
+            <sys_created_on>2024-10-06 18:16:49</sys_created_on>
+            <sys_id>bb2b8c121b419210aeed10ee034bcbb1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_pamtn_nowspace_nowspace_contracts" sys_domain="global" view="c91b4412f64192101bf661a09e1422aa">7f2b8c121b419210aeed10ee034bcbaf</sys_ui_section>
+            <sys_updated_by>rajat@pamtconsulting.com</sys_updated_by>
+            <sys_updated_on>2024-10-06 18:16:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>substate</element>
+            <position>9</position>
+            <sys_created_by>rajat@pamtconsulting.com</sys_created_by>
+            <sys_created_on>2024-10-06 18:16:49</sys_created_on>
+            <sys_id>843bcc121b419210aeed10ee034bcb4c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_pamtn_nowspace_nowspace_contracts" sys_domain="global" view="c91b4412f64192101bf661a09e1422aa">7f2b8c121b419210aeed10ee034bcbaf</sys_ui_section>
+            <sys_updated_by>rajat@pamtconsulting.com</sys_updated_by>
+            <sys_updated_on>2024-10-06 18:16:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>contract_administrator</element>
+            <position>10</position>
+            <sys_created_by>rajat@pamtconsulting.com</sys_created_by>
+            <sys_created_on>2024-10-06 18:16:49</sys_created_on>
+            <sys_id>843bcc121b419210aeed10ee034bcb4a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_pamtn_nowspace_nowspace_contracts" sys_domain="global" view="c91b4412f64192101bf661a09e1422aa">7f2b8c121b419210aeed10ee034bcbaf</sys_ui_section>
+            <sys_updated_by>rajat@pamtconsulting.com</sys_updated_by>
+            <sys_updated_on>2024-10-06 18:16:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>approver</element>
+            <position>11</position>
+            <sys_created_by>rajat@pamtconsulting.com</sys_created_by>
+            <sys_created_on>2024-10-06 18:16:49</sys_created_on>
+            <sys_id>843bcc121b419210aeed10ee034bcb4b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_pamtn_nowspace_nowspace_contracts" sys_domain="global" view="c91b4412f64192101bf661a09e1422aa">7f2b8c121b419210aeed10ee034bcbaf</sys_ui_section>
+            <sys_updated_by>rajat@pamtconsulting.com</sys_updated_by>
+            <sys_updated_on>2024-10-06 18:16:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>commitment</element>
+            <position>12</position>
+            <sys_created_by>rajat@pamtconsulting.com</sys_created_by>
+            <sys_created_on>2024-10-06 18:16:49</sys_created_on>
+            <sys_id>843bcc121b419210aeed10ee034bcb49</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_pamtn_nowspace_nowspace_contracts" sys_domain="global" view="c91b4412f64192101bf661a09e1422aa">7f2b8c121b419210aeed10ee034bcbaf</sys_ui_section>
+            <sys_updated_by>rajat@pamtconsulting.com</sys_updated_by>
+            <sys_updated_on>2024-10-06 18:16:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>discount</element>
+            <position>13</position>
+            <sys_created_by>rajat@pamtconsulting.com</sys_created_by>
+            <sys_created_on>2024-10-06 18:16:50</sys_created_on>
+            <sys_id>8c3bcc121b419210aeed10ee034bcb4e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_pamtn_nowspace_nowspace_contracts" sys_domain="global" view="c91b4412f64192101bf661a09e1422aa">7f2b8c121b419210aeed10ee034bcbaf</sys_ui_section>
+            <sys_updated_by>rajat@pamtconsulting.com</sys_updated_by>
+            <sys_updated_on>2024-10-06 18:16:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>license_type</element>
+            <position>14</position>
+            <sys_created_by>rajat@pamtconsulting.com</sys_created_by>
+            <sys_created_on>2024-10-06 18:16:49</sys_created_on>
+            <sys_id>b72bcc121b419210aeed10ee034bcb48</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_pamtn_nowspace_nowspace_contracts" sys_domain="global" view="c91b4412f64192101bf661a09e1422aa">7f2b8c121b419210aeed10ee034bcbaf</sys_ui_section>
+            <sys_updated_by>rajat@pamtconsulting.com</sys_updated_by>
+            <sys_updated_on>2024-10-06 18:16:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>process_non_contractual_slas</element>
+            <position>15</position>
+            <sys_created_by>rajat@pamtconsulting.com</sys_created_by>
+            <sys_created_on>2024-10-06 18:16:49</sys_created_on>
+            <sys_id>8c3bcc121b419210aeed10ee034bcb4d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_pamtn_nowspace_nowspace_contracts" sys_domain="global" view="c91b4412f64192101bf661a09e1422aa">7f2b8c121b419210aeed10ee034bcbaf</sys_ui_section>
+            <sys_updated_by>rajat@pamtconsulting.com</sys_updated_by>
+            <sys_updated_on>2024-10-06 18:16:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>16</position>
+            <sys_created_by>rajat@pamtconsulting.com</sys_created_by>
+            <sys_created_on>2024-10-06 18:16:49</sys_created_on>
+            <sys_id>b32b8c121b419210aeed10ee034bcbb2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_pamtn_nowspace_nowspace_contracts" sys_domain="global" view="c91b4412f64192101bf661a09e1422aa">7f2b8c121b419210aeed10ee034bcbaf</sys_ui_section>
+            <sys_updated_by>rajat@pamtconsulting.com</sys_updated_by>
+            <sys_updated_on>2024-10-06 18:16:49</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>17</position>
+            <sys_created_by>rajat@pamtconsulting.com</sys_created_by>
+            <sys_created_on>2024-10-06 18:16:49</sys_created_on>
+            <sys_id>8c3bcc121b419210aeed10ee034bcb4c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_pamtn_nowspace_nowspace_contracts" sys_domain="global" view="c91b4412f64192101bf661a09e1422aa">7f2b8c121b419210aeed10ee034bcbaf</sys_ui_section>
+            <sys_updated_by>rajat@pamtconsulting.com</sys_updated_by>
+            <sys_updated_on>2024-10-06 18:16:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_pamtn_nowspace_nowspace_contracts</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>rajat@pamtconsulting.com</sys_created_by>
+            <sys_created_on>2024-10-06 18:16:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7f2b8c121b419210aeed10ee034bcbaf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_pamtn_nowspace_nowspace_contracts</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="NowSpace" source="x_pamtn_nowspace">41a691151bc55e10aeed10ee034bcb4a</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NowSpace">41a691151bc55e10aeed10ee034bcb4a</sys_scope>
+            <sys_update_name>sys_ui_section_7f2b8c121b419210aeed10ee034bcbaf</sys_update_name>
+            <sys_updated_by>rajat@pamtconsulting.com</sys_updated_by>
+            <sys_updated_on>2024-10-06 18:16:49</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Workspace NowSpace 0" name="workspace-nowspace-0">c91b4412f64192101bf661a09e1422aa</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

@@ -24,20 +24,20 @@
         <search_application display_value="Service Portal Default Search Application">00731b9d5b231010d9a5ce1a8581c7dd</search_application>
         <search_results_configuration display_value="Service Portal Search">80eb579d53671010968addeeff7b1215</search_results_configuration>
         <sp_chat_queue/>
-        <sp_rectangle_menu display_value="Employee Center Menu">493d01365368301056c1ddeeff7b1207</sp_rectangle_menu>
+        <sp_rectangle_menu display_value="NowSpace Menu Items">e2427e3d1b451210aeed10ee034bcba8</sp_rectangle_menu>
         <sys_class_name>sp_portal</sys_class_name>
         <sys_created_by>rajat@pamtconsulting.com</sys_created_by>
         <sys_created_on>2024-10-03 22:53:16</sys_created_on>
         <sys_id>506d2dd11b495e10aeed10ee034bcb97</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>NowSpace</sys_name>
         <sys_package display_value="NowSpace" source="x_pamtn_nowspace">41a691151bc55e10aeed10ee034bcb4a</sys_package>
         <sys_policy/>
         <sys_scope display_value="NowSpace">41a691151bc55e10aeed10ee034bcb4a</sys_scope>
         <sys_update_name>sp_portal_506d2dd11b495e10aeed10ee034bcb97</sys_update_name>
         <sys_updated_by>rajat@pamtconsulting.com</sys_updated_by>
-        <sys_updated_on>2024-10-04 02:56:42</sys_updated_on>
-        <theme display_value="EC Theme">9b6f06d71bb8f85047582171604bcb9c</theme>
+        <sys_updated_on>2024-10-05 17:13:29</sys_updated_on>
+        <theme display_value="Now Space EC Theme">b5203a791b451210aeed10ee034bcbf6</theme>
         <title>NowSpace</title>
         <ts_index_group/>
         <url_suffix>space</url_suffix>
