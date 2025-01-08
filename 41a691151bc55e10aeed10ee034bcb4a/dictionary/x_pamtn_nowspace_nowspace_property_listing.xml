@@ -1,3 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="3e86f6b11b851210aeed10ee034bcb92" max_length="40" name="x_pamtn_nowspace_nowspace_property_listing" text_index="true" type="collection"/>
+    <element db_object_id="3e86f6b11b851210aeed10ee034bcb92" label="NowSpace Property Listing" max_length="40" name="x_pamtn_nowspace_nowspace_property_listing" text_index="true" type="collection">
+        <element label="Primary Internal Contact" mandatory="true" max_length="32" name="primary_internal_contact" reference="sys_user" type="reference"/>
+        <element label="Landlord" mandatory="true" max_length="32" name="landlord" reference="customer_account" type="reference"/>
+        <element label="Renter" max_length="32" name="renter" reference="csm_consumer" type="reference"/>
+        <element choice="3" default="residential" label="Building Category" mandatory="true" max_length="40" name="building_category" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Industrial" sequence="300" value="industrial"/>
+                <element inactive_on_update="false" label="Other" sequence="500" value="other"/>
+                <element inactive_on_update="false" label="Special Purpose" sequence="400" value="special_purpose"/>
+                <element inactive_on_update="false" label="Residential" sequence="100" value="residential"/>
+                <element inactive_on_update="false" label="Commercial" sequence="200" value="commercial"/>
+            </choice>
+        </element>
+        <element choice="3" dependent="building_category" dependent_on_field="building_category" label="Building Subcategory" max_length="40" name="building_subcategory" type="choice" use_dependent_field="true">
+            <choice>
+                <element dependent_value="commercial" inactive_on_update="false" label="Medical Office" sequence="3" value="Medical Office"/>
+                <element dependent_value="commercial" inactive_on_update="false" label="Retail Space" sequence="1" value="Retail Space"/>
+                <element dependent_value="industrial" inactive_on_update="false" label="Warehouse" sequence="0" value="Warehouse"/>
+                <element dependent_value="industrial" inactive_on_update="false" label="Manufacturing Plant" sequence="1" value="Manufacturing Plant"/>
+                <element dependent_value="residential" inactive_on_update="false" label="Townhouse" sequence="4" value="Townhouse"/>
+                <element dependent_value="residential" inactive_on_update="false" label="Apartment Unit" sequence="2" value="Apartment Unit"/>
+                <element dependent_value="commercial" inactive_on_update="false" label="Restaurant or Cafe" sequence="2" value="Restaurant or Cafe"/>
+                <element dependent_value="residential" inactive_on_update="false" label="Single-family home" sequence="0" value="Single-family home"/>
+                <element dependent_value="commercial" inactive_on_update="false" label="Office Space" sequence="0" value="Office Space"/>
+                <element dependent_value="special_purpose" inactive_on_update="false" label="Self-storage Units" sequence="1" value="Self-storage Units"/>
+                <element dependent_value="special_purpose" inactive_on_update="false" label="Educational Institute" sequence="2" value="Educational Institute"/>
+                <element dependent_value="special_purpose" inactive_on_update="false" label="Recreational Centers" sequence="3" value="Recreational Centers"/>
+                <element dependent_value="special_purpose" inactive_on_update="false" label="Event Venues" sequence="4" value="Event Venues"/>
+                <element dependent_value="industrial" inactive_on_update="false" label="Distribution Center" sequence="2" value="Distribution Center"/>
+                <element dependent_value="industrial" inactive_on_update="false" label="Research and Development space" sequence="3" value="Research and Development space"/>
+                <element dependent_value="special_purpose" inactive_on_update="false" label="Hotel or Motel" sequence="0" value="Hotel or Motel"/>
+                <element dependent_value="residential" inactive_on_update="false" label="Senior Housing" sequence="5" value="Senior Housing"/>
+                <element dependent_value="residential" inactive_on_update="false" label="Condominium" sequence="3" value="Condominium"/>
+                <element dependent_value="residential" inactive_on_update="false" label="Multi-family home" sequence="1" value="Multi-family home"/>
+            </choice>
+        </element>
+        <element label="MLS Listing Number" max_length="100" name="mls_listing_number" type="string" unique="true"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" display="true" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element label="Description" max_length="4000" name="description" type="string"/>
+        <element label="Address" mandatory="true" max_length="32" name="address" reference="cmn_location" type="reference"/>
+        <index name="index">
+            <element name="address"/>
+        </index>
+        <index name="index2">
+            <element name="landlord"/>
+        </index>
+        <index name="index3">
+            <element name="primary_internal_contact"/>
+        </index>
+        <index name="index4">
+            <element name="renter"/>
+        </index>
+    </element>
 </database>

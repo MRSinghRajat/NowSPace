@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="all_tables.text_index_translations=true,kagami_csindex_enabled=true" db_object_id="773e1e031b323010aeed10ee034bcbc4" label="Standort" max_length="40" name="cmn_location" text_index="true" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Unit #" max_length="100" name="x_pamtn_nowspace_unit" type="string"/>
+    </element>
+</database>

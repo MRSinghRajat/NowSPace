@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Financial" section_id="d64100d21b499210a2a61f4d2b4bcb83" sys_domain="global" table="x_pamtn_nowspace_nowspace_contracts" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>nakul</sys_created_by>
+            <sys_created_on>2024-10-06 17:33:35</sys_created_on>
+            <sys_id>6a4100d21b499210a2a61f4d2b4bcb95</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financial" display_value="Financial" name="x_pamtn_nowspace_nowspace_contracts" sys_domain="global" view="Default view">d64100d21b499210a2a61f4d2b4bcb83</sys_ui_section>
+            <sys_updated_by>nakul</sys_updated_by>
+            <sys_updated_on>2024-10-06 17:33:35</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>invoice_payment_terms</element>
+            <position>1</position>
+            <sys_created_by>nakul</sys_created_by>
+            <sys_created_on>2024-10-06 17:33:35</sys_created_on>
+            <sys_id>9a4100d21b499210a2a61f4d2b4bcb84</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financial" display_value="Financial" name="x_pamtn_nowspace_nowspace_contracts" sys_domain="global" view="Default view">d64100d21b499210a2a61f4d2b4bcb83</sys_ui_section>
+            <sys_updated_by>nakul</sys_updated_by>
+            <sys_updated_on>2024-10-06 17:33:35</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>payment_schedule</element>
+            <position>2</position>
+            <sys_created_by>nakul</sys_created_by>
+            <sys_created_on>2024-10-06 17:33:35</sys_created_on>
+            <sys_id>ea4100d21b499210a2a61f4d2b4bcb93</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financial" display_value="Financial" name="x_pamtn_nowspace_nowspace_contracts" sys_domain="global" view="Default view">d64100d21b499210a2a61f4d2b4bcb83</sys_ui_section>
+            <sys_updated_by>nakul</sys_updated_by>
+            <sys_updated_on>2024-10-06 17:33:35</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>payment_amount</element>
+            <position>3</position>
+            <sys_created_by>nakul</sys_created_by>
+            <sys_created_on>2024-10-06 17:33:35</sys_created_on>
+            <sys_id>964100d21b499210a2a61f4d2b4bcb85</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financial" display_value="Financial" name="x_pamtn_nowspace_nowspace_contracts" sys_domain="global" view="Default view">d64100d21b499210a2a61f4d2b4bcb83</sys_ui_section>
+            <sys_updated_by>nakul</sys_updated_by>
+            <sys_updated_on>2024-10-06 17:33:35</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>applicable_taxes</element>
+            <position>4</position>
+            <sys_created_by>nakul</sys_created_by>
+            <sys_created_on>2024-10-06 17:33:35</sys_created_on>
+            <sys_id>e64100d21b499210a2a61f4d2b4bcb94</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financial" display_value="Financial" name="x_pamtn_nowspace_nowspace_contracts" sys_domain="global" view="Default view">d64100d21b499210a2a61f4d2b4bcb83</sys_ui_section>
+            <sys_updated_by>nakul</sys_updated_by>
+            <sys_updated_on>2024-10-06 17:33:35</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>tax_rate</element>
+            <position>5</position>
+            <sys_created_by>nakul</sys_created_by>
+            <sys_created_on>2024-10-06 17:33:35</sys_created_on>
+            <sys_id>5a4100d21b499210a2a61f4d2b4bcb92</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financial" display_value="Financial" name="x_pamtn_nowspace_nowspace_contracts" sys_domain="global" view="Default view">d64100d21b499210a2a61f4d2b4bcb83</sys_ui_section>
+            <sys_updated_by>nakul</sys_updated_by>
+            <sys_updated_on>2024-10-06 17:33:35</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>tax_cost</element>
+            <position>6</position>
+            <sys_created_by>nakul</sys_created_by>
+            <sys_created_on>2024-10-06 17:33:35</sys_created_on>
+            <sys_id>e24100d21b499210a2a61f4d2b4bcb95</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financial" display_value="Financial" name="x_pamtn_nowspace_nowspace_contracts" sys_domain="global" view="Default view">d64100d21b499210a2a61f4d2b4bcb83</sys_ui_section>
+            <sys_updated_by>nakul</sys_updated_by>
+            <sys_updated_on>2024-10-06 17:33:35</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>total_cost</element>
+            <position>7</position>
+            <sys_created_by>nakul</sys_created_by>
+            <sys_created_on>2024-10-06 17:33:35</sys_created_on>
+            <sys_id>564100d21b499210a2a61f4d2b4bcb93</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financial" display_value="Financial" name="x_pamtn_nowspace_nowspace_contracts" sys_domain="global" view="Default view">d64100d21b499210a2a61f4d2b4bcb83</sys_ui_section>
+            <sys_updated_by>nakul</sys_updated_by>
+            <sys_updated_on>2024-10-06 17:33:35</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>8</position>
+            <sys_created_by>nakul</sys_created_by>
+            <sys_created_on>2024-10-06 17:33:35</sys_created_on>
+            <sys_id>ee4100d21b499210a2a61f4d2b4bcb95</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financial" display_value="Financial" name="x_pamtn_nowspace_nowspace_contracts" sys_domain="global" view="Default view">d64100d21b499210a2a61f4d2b4bcb83</sys_ui_section>
+            <sys_updated_by>nakul</sys_updated_by>
+            <sys_updated_on>2024-10-06 17:33:35</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>vendor_account</element>
+            <position>9</position>
+            <sys_created_by>nakul</sys_created_by>
+            <sys_created_on>2024-10-06 17:33:35</sys_created_on>
+            <sys_id>124100d21b499210a2a61f4d2b4bcb85</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financial" display_value="Financial" name="x_pamtn_nowspace_nowspace_contracts" sys_domain="global" view="Default view">d64100d21b499210a2a61f4d2b4bcb83</sys_ui_section>
+            <sys_updated_by>nakul</sys_updated_by>
+            <sys_updated_on>2024-10-06 17:33:35</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>po_number</element>
+            <position>10</position>
+            <sys_created_by>nakul</sys_created_by>
+            <sys_created_on>2024-10-06 17:33:35</sys_created_on>
+            <sys_id>624100d21b499210a2a61f4d2b4bcb94</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financial" display_value="Financial" name="x_pamtn_nowspace_nowspace_contracts" sys_domain="global" view="Default view">d64100d21b499210a2a61f4d2b4bcb83</sys_ui_section>
+            <sys_updated_by>nakul</sys_updated_by>
+            <sys_updated_on>2024-10-06 17:33:35</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cost_center</element>
+            <position>11</position>
+            <sys_created_by>nakul</sys_created_by>
+            <sys_created_on>2024-10-06 17:33:35</sys_created_on>
+            <sys_id>d24100d21b499210a2a61f4d2b4bcb92</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financial" display_value="Financial" name="x_pamtn_nowspace_nowspace_contracts" sys_domain="global" view="Default view">d64100d21b499210a2a61f4d2b4bcb83</sys_ui_section>
+            <sys_updated_by>nakul</sys_updated_by>
+            <sys_updated_on>2024-10-06 17:33:35</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ratecard</element>
+            <position>12</position>
+            <sys_created_by>nakul</sys_created_by>
+            <sys_created_on>2024-10-06 17:33:35</sys_created_on>
+            <sys_id>6e4100d21b499210a2a61f4d2b4bcb94</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financial" display_value="Financial" name="x_pamtn_nowspace_nowspace_contracts" sys_domain="global" view="Default view">d64100d21b499210a2a61f4d2b4bcb83</sys_ui_section>
+            <sys_updated_by>nakul</sys_updated_by>
+            <sys_updated_on>2024-10-06 17:33:35</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>13</position>
+            <sys_created_by>nakul</sys_created_by>
+            <sys_created_on>2024-10-06 17:33:35</sys_created_on>
+            <sys_id>de4100d21b499210a2a61f4d2b4bcb92</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financial" display_value="Financial" name="x_pamtn_nowspace_nowspace_contracts" sys_domain="global" view="Default view">d64100d21b499210a2a61f4d2b4bcb83</sys_ui_section>
+            <sys_updated_by>nakul</sys_updated_by>
+            <sys_updated_on>2024-10-06 17:33:35</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Financial</caption>
+            <header>false</header>
+            <name>x_pamtn_nowspace_nowspace_contracts</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>nakul</sys_created_by>
+            <sys_created_on>2024-10-06 17:33:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d64100d21b499210a2a61f4d2b4bcb83</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_pamtn_nowspace_nowspace_contracts</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="NowSpace" source="x_pamtn_nowspace">41a691151bc55e10aeed10ee034bcb4a</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NowSpace">41a691151bc55e10aeed10ee034bcb4a</sys_scope>
+            <sys_update_name>sys_ui_section_d64100d21b499210a2a61f4d2b4bcb83</sys_update_name>
+            <sys_updated_by>nakul</sys_updated_by>
+            <sys_updated_on>2024-10-06 17:33:35</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

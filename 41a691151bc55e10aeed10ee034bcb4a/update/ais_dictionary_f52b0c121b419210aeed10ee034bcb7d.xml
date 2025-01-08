@@ -8,10 +8,10 @@
         <derived>true</derived>
         <field/>
         <label>space Search Profile Default Spell Check Dictionary</label>
-        <last_derived>2024-10-07 18:26:58</last_derived>
+        <last_derived>2025-01-07 17:26:59</last_derived>
         <locale>en</locale>
         <name>x_pamtn_nowspace_space_search_profile_default_spell_check_dictionary</name>
-        <publish_id>5c3fdaa9-10f2-4c64-a089-889224b50136</publish_id>
+        <publish_id>db014a75-2253-4a56-90ba-8d94a61f2cf4</publish_id>
         <punctuation_sensitive>false</punctuation_sensitive>
         <state>PUBLISHED</state>
         <sys_class_name>ais_dictionary</sys_class_name>
